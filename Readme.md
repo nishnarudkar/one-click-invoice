@@ -33,7 +33,7 @@ A minimalist web app that empowers freelancers to quickly create professional in
 
 _Add screenshots in the `assets/` folder to showcase features:_
 
-![Invoice Form Screenshot](assets/screenshot-form.png)
+![Invoice Form Screenshot](https://github.com/nishnarudkar/one-click-invoice/blob/main/assests/one-click-invoice%20homepage.png)
 ![Generated PDF Screenshot](https://github.com/nishnarudkar/one-click-invoice/blob/main/assests/Downloaded%20Invoice.png))
 
 ---
