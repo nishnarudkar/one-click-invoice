@@ -1,47 +1,46 @@
-One-Click Invoice — Simple Freelancer Invoice Generator
+# One-Click Invoice — Simple Freelancer Invoice Generator
 
-A clean, single-purpose web tool that lets freelancers quickly create invoices and download them as PDFs — no login, no backend, fully client-side.
+A minimalist web app that empowers freelancers to quickly create professional invoices and download them as PDFs — no login required, no backend server, completely client-side.
 
-🔗 Live Website: https://nishnarudkar.github.io/one-click-invoice/
+🔗 **Live Website:** [nishnarudkar.github.io/one-click-invoice](https://nishnarudkar.github.io/one-click-invoice)  
+📦 **GitHub Repository:** [github.com/nishnarudkar/one-click-invoice](https://github.com/nishnarudkar/one-click-invoice)
 
-📦 GitHub Repository: https://github.com/nishnarudkar/one-click-invoice
+---
 
-🚀 Features
+## 🚀 Features
 
-Add invoice items: description, quantity/hours, rate
+- **Add Invoice Items** — Specify description, quantity/hours, and rate for each item.
+- **Automatic Calculations** — Instantly computes subtotal, tax, and total.
+- **Export to PDF** — One-click PDF generation powered by [jsPDF](https://github.com/parallax/jsPDF).
+- **Privacy-First** — 100% client-side: no data sent to any server, no signup.
+- **Clean UI** — Simple, distraction-free interface for fast workflow.
+- **Mobile-Optimized** — Responsive design for phones, tablets, and desktops.
+- **Quick & Free** — Optimized for the fastest invoice creation possible.
 
-Automatic calculation of subtotal, tax, and total
+---
 
-Export invoice as a PDF using jsPDF
+## 🛠️ Tech Stack
 
-Fully client-side — no server, no signup
+- **HTML5** — Structure and semantic markup
+- **CSS3** — Modern, responsive layouts
+- **Vanilla JavaScript** — Interactive logic & calculations
+- **jsPDF** — PDF generation (no external backend)
+- **GitHub Pages** — Blazing-fast static hosting
 
-Clean, simple UI
+---
 
-Mobile-friendly responsive design
+## 📷 Screenshots
 
-Built with help from Kiro AI
-
-🛠️ Tech Stack
-
-HTML5
-
-CSS3
-
-Vanilla JavaScript
-
-jsPDF (PDF generation)
-
-GitHub Pages (hosting)
-
-📷 Screenshots (Optional)
-
-Add screenshots here once you capture them:
+_Add screenshots in the `assets/` folder to showcase features:_
 
 ![Invoice Form Screenshot](assets/screenshot-form.png)
 ![Generated PDF Screenshot](assets/screenshot-pdf.png)
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```
 one-click-invoice/
 ├── index.html
 ├── style.css
@@ -51,66 +50,62 @@ one-click-invoice/
 └── .kiro/
     ├── kiro-config.json
     └── README.md
+```
 
-⚡ How Kiro Helped
+---
 
-Kiro accelerated development by:
+## ⚡ Powered by Kiro AI
 
-Scaffolding the initial HTML/CSS layout
+Kiro AI assisted in:
 
-Suggesting the jsPDF export logic
+- Scaffolding the core HTML/CSS layout
+- Guiding jsPDF export logic
+- Generating forms and calculation scripts
+- Polishing UI copy and flow
+- Accelerating repetitive coding tasks
 
-Generating form structures and calculations
+_The full `.kiro` directory is included at the repo root for AI for Bharat Week 1._
 
-Improving UI copy and layout structure
+---
 
-Speeding up repetitive coding tasks
+## 🏃‍♂️ Quick Start — Run Locally
 
-The full .kiro directory is included at the repo root as required by AI for Bharat Week 1.
+1. **Clone the repo:**
+   ```shell
+   git clone https://github.com/nishnarudkar/one-click-invoice.git
+   ```
+2. **Navigate into the directory:**
+   ```shell
+   cd one-click-invoice
+   ```
+3. **Launch app:**
+   - Open `index.html` directly in your browser — no build or install step required.
 
-🚀 How to Run Locally
+---
 
-Clone the repo:
+## 🌐 Deployment (GitHub Pages)
 
-git clone https://github.com/nishnarudkar/one-click-invoice.git
+Deployed via GitHub Pages for instant updates.
 
+To redeploy after changes:
+- Go to **Settings → Pages** in your repo
+- Choose:
+  - **Branch:** `main`
+  - **Folder:** `/` (root)
+- _Your site updates automatically at:_  
+  [https://nishnarudkar.github.io/one-click-invoice/](https://nishnarudkar.github.io/one-click-invoice/)
 
-Navigate into the project:
+---
 
-cd one-click-invoice
+## 📄 License
 
+Released under the [MIT License](LICENSE).
 
-Open the file:
+---
 
-index.html
+## ✨ Author
 
+**Nishant Narudkar**  
+_Built for AI for Bharat – Week 1: Micro-Tools Challenge_
 
-That's it — no additional setup needed.
-
-🌐 Deployment (GitHub Pages)
-
-This project is deployed using GitHub Pages.
-
-To re-deploy after updates:
-
-Go to: Settings → Pages
-
-Select:
-
-Branch: main
-
-Folder: / (root)
-
-Save
-
-Your site updates automatically at:
-https://nishnarudkar.github.io/one-click-invoice/
-
-📄 License
-
-This project is licensed under the MIT License.
-
-✨ Author
-
-Nishant Narudkar
-Built for AI for Bharat – Week 1: Micro-Tools Challenge.
+---
