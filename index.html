@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>One-Click Invoice — Freelancer Invoice Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- jsPDF from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="author-badge">
+    <a href="https://github.com/nishnarudkar" target="_blank" rel="noopener noreferrer">Nishant Narudkar</a>
+  </div>
+  <header>
+    <h1>One-Click Invoice</h1>
+    <p>Fill details, preview, and export a PDF invoice — no signup.</p>
+  </header>
+
+  <main>
+    <form id="invoice-form">
+      <section class="grid">
+        <div>
+          <label>From (your name)</label>
+          <input id="fromName" placeholder="Your Name / Business" required />
+          <label>From Address</label>
+          <textarea id="fromAddress" rows="2"></textarea>
+        </div>
+        <div>
+          <label>To (client)</label>
+          <input id="toName" placeholder="Client Name" required />
+          <label>Client Address</label>
+          <textarea id="toAddress" rows="2"></textarea>
+        </div>
+      </section>
+
+      <section>
+        <label>Invoice #</label>
+        <input id="invoiceNo" placeholder="INV-001" />
+        <label>Invoice Date</label>
+        <input id="invoiceDate" type="date" />
+      </section>
+
+      <section>
+        <h3>Items</h3>
+        <table id="itemsTable">
+          <thead>
+            <tr><th>Description</th><th>Hours / Qty</th><th>Rate</th><th>Total</th><th></th></tr>
+          </thead>
+          <tbody id="itemsBody"></tbody>
+        </table>
+        <button type="button" id="addItem">+ Add item</button>
+      </section>
+
+      <section class="summary">
+        <label>Notes</label>
+        <textarea id="notes" rows="3"></textarea>
+        <div class="totals">
+          <div>Subtotal: <span id="subtotal">0.00</span></div>
+          <div>Tax (%): <input id="taxRate" type="number" value="0" min="0" /> </div>
+          <div>Total: <strong id="grandTotal">0.00</strong></div>
+        </div>
+      </section>
+
+      <div class="actions">
+        <button type="button" id="previewPdf">Download PDF</button>
+        <button type="button" id="reset">Reset</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <small>Made with ♥ by Nishant Narudkar — Single-purpose tool for freelancers</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

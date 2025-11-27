@@ -1,0 +1,10 @@
+{
+  "project": "one-click-invoice",
+  "created_with": "kiro",
+  "commands": [
+    "kiro scaffold web:vanilla --name one-click-invoice",
+    "kiro suggest:add-feature --feature pdf-export --lib jspdf",
+    "kiro optimize:css --preset minimal"
+  ],
+  "notes": "This file documents Kiro actions used during development."
+}
